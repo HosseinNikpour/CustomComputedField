@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">CustomComputedField</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="TypeDisplayName">ComputedQuery</Field>
+    <Field Name="TypeShortDescription">ComputedQuery</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowOnListCreate">TRUE</Field>
+    <Field Name="ShowOnSurveyCreate">TRUE</Field>
+    <Field Name="ShowOnDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowOnColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">CustomComputedField.CustomComputedField, CustomComputedField, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a562177864c784be</Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/15/CustomComputedEditor.ascx</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Name="ListNameQuery" DisplayName="ListNameQuery" Type="Text"  Description="List Name" Hidden="TRUE">
+        </Field>
+
+        <Field Name="TextQuery" DisplayName="TextQuery" Type="Note"  Description="Query Text" Hidden="TRUE">
+        </Field>
+        <Field Name="AggregatorFunction" DisplayName="AggregatorFunction" Type="Text"  Description="AggregatorFunction" Hidden="TRUE">
+        </Field>
+        <Field Name="FieldNameQuery" DisplayName="FieldNameQuery" Type="Text"  Description="Field Name" Hidden="TRUE">
+        </Field>
+
+        <!--<Field Name="Status" DisplayName="Status"  Type="Choice"  Format='Dropdown' FillInChoice="FALSE" Required="FALSE">
+           <CHOICES>
+            <CHOICE>tttrr</CHOICE>
+            <CHOICE>hhh</CHOICE>
+            <CHOICE>mjjj</CHOICE>
+           </CHOICES>
+        </Field>-->
+      </Fields>
+    </PropertySchema>
+    <RenderPattern Name="DisplayPattern">
+      <LookupColumn HTMLEncode="TRUE" AutoHyperLink="FALSE" />
+    </RenderPattern>
+  </FieldType>
+</FieldTypes>

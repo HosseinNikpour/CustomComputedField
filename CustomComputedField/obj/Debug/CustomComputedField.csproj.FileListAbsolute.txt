@@ -1,0 +1,4 @@
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\CustomComputedField\bin\Debug\CustomComputedField.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\CustomComputedField\bin\Debug\CustomComputedField.pdb
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\CustomComputedField\obj\Debug\CustomComputedField.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\CustomComputedField\obj\Debug\CustomComputedField.pdb

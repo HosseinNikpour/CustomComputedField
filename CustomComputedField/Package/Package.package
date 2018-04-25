@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="54dd8a05-5c65-459b-9d2a-fcf6c22ac99e" solutionId="54dd8a05-5c65-459b-9d2a-fcf6c22ac99e" resetWebServer="false" sharePointProductVersion="15.0" name="CustomComputedField" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="32e2df7c-3653-405c-82df-ef7baed55f49" />
+    <projectItemReference itemId="1fde0eab-6a3e-4e1d-a8a4-41e06fe6d754" />
+    <projectItemReference itemId="dbbeaf35-6aaf-4108-af51-91de185c9ff8" />
+  </projectItems>
+</package>

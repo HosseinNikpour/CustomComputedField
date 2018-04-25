@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="54dd8a05-5c65-459b-9d2a-fcf6c22ac99e" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="CustomComputedField.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\ComputedFieldControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\CustomComputedEditor.ascx" />
+    <TemplateFile Location="XML\fldtypes_ComputedField.xml" />
+    <TemplateFile Location="LAYOUTS\XSL\fldtypes_CustomComputedField.xsl" />
+  </TemplateFiles>
+</Solution>
